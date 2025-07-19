@@ -1,6 +1,6 @@
 // api.ts
 import ApiClient from './apiClient';
 
-const api = new ApiClient('https://swapi.dev/api');
+const api = new ApiClient('https://localhost:8000');
 
 export default api;

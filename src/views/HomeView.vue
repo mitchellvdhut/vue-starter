@@ -5,7 +5,7 @@
     <p v-else-if="error"> {{ error.message }}</p>
     <template v-else>
       <p v-for="(person, index) in people" :key="index">
-        {{ person.name }}
+        {{ person.lastName }}
       </p>
     </template>
   </main>

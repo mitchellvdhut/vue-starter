@@ -12,6 +12,7 @@ export default defineConfig({
     vue(),
     vueDevTools(),
   ],
+  publicDir: 'public',
   css: {
     postcss: {
       plugins: [tailwind(), autoprefixer()],
